@@ -1,0 +1,58 @@
+ 1407  cd ../..
+ 1408  mkdir git-majonez
+ 1409  cd git-majonez/
+ 1410  git init
+ 1411  touch main.cpp
+ 1412  nano main.cpp
+ 1413  git status
+ 1414  git add .
+ 1415  git commit -m"Initial commit"
+ 1416  nano main.cpp
+ 1417  git add .
+ 1418  git commit -m"Farewell changed"
+ 1419  git remote add origin https://github.com/Regggis/git-majonez.git
+ 1420  git push -u origin master
+ 1421  git branch cs
+ 1422  git checkout cs
+ 1423  git log
+ 1424  git reser --hard 3f1787496e51a2
+ 1425  git reset --hard 3f1787496e51a2
+ 1426  git log
+ 1427  git reset --hard f12ff35e90ea8f310dd6
+ 1428  git log
+ 1429  nano main.cpp
+ 1430  git add .
+ 1431  git commit -m"Greetings"
+ 1432  git push origin cs
+ 1433  git checkout master
+ 1434  git merge cs
+ 1435  git status
+ 1436  cat main.cpp
+ 1437  cd ../
+ 1438  mkdir git-majonez
+ 1439  cd git-majonez/
+ 1440  git init
+ 1441  touch main.cpp
+ 1442  nano main.cpp
+ 1443  git add .
+ 1444  git commit -m"Initial commit"
+ 1445  nano main.cpp
+ 1446  git add .
+ 1447  git commit -m"Farewell changed"
+ 1448  git remote add origin https://github.com/Regggis/git-majonez.git
+ 1449  git push -u origin master
+ 1450  git branch cs
+ 1451  git checkout cs
+ 1452  git log
+ 1453  git reset --hard 4cc4867efbb980829583e
+ 1454  git log
+ 1455  nano main.cpp
+ 1456  git add .
+ 1457  git commit -m"Greetings"
+ 1458  git push origin cs
+ 1459  git checkout master
+ 1460  git merge cs
+ 1461  cat main.cpp
+ 1462  history
+ 1463  history | tail -n55 >> history.txt
+ 1464  history | tail -n58 > history.txt
